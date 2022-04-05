@@ -20,16 +20,17 @@ const outputList =
 `
 <ul>
   <li>${firstName}</li>
-  <li>${lasttName}</li>
+  <li>${lastName}</li>
   <li>${favouriteColor}</li>
 </ul>
 `;
 
-const pwGenerator = firstName + lastName + favouriteColor;
+const pwGenerator = firstName + lastName + favouriteColor + "22";
 
 console.log(pwGenerator);
 
-document.getElementById('output-list').innerHTML = outputList;
+document.getElementById("output-list").innerHTML = outputList;
 
-document.getElementById('output-pword').innerHTML = pwGenerator;
+document.getElementById("output-pword").innerHTML = pwGenerator;
+
 
