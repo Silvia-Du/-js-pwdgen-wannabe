@@ -10,3 +10,26 @@ Flusso di lavoro:
 3. Stampare tutto a video
 */
 
+const firstName = prompt('inserisci il tuo nome');
+
+const lastName = prompt('il tuo cognome');
+
+const favouriteColor = prompt("qual'è il tuo colore preferito?");
+
+const outputList =
+`
+<ul>
+  <li>${firstName}</li>
+  <li>${lasttName}</li>
+  <li>${favouriteColor}</li>
+</ul>
+`;
+
+const pwGenerator = firstName + lastName + favouriteColor;
+
+console.log(pwGenerator);
+
+document.getElementById('output-list').innerHTML = outputList;
+
+document.getElementById('output-pword').innerHTML = pwGenerator;
+
