@@ -29,8 +29,6 @@ const pwGenerator = firstName + lastName + favouriteColor + "22";
 
 console.log(pwGenerator);
 
-document.getElementById("output-list").innerHTML = outputList;
-
 document.getElementById("output-pword").innerHTML = pwGenerator;
-
+document.getElementById("list-item").innerHTML += 'i dati che hai inserito:'+ outputList;
 
